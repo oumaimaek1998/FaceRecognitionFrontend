@@ -1,0 +1,35 @@
+.page-columns {
+  display: flex;
+}
+.instruction-side {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  height: fit-content;
+}
+
+.image-side {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image-side:empty {
+  display: none;
+}
+
+.camera-side {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  width: 70%;
+  height: fit-content;
+}
+
+.page-rows {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}

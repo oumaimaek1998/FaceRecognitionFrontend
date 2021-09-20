@@ -1,0 +1,21 @@
+.instruction1 {
+  padding: 10px;
+  border-color: rgb(36, 34, 34);
+  background-color: #e0e5f0;
+  color: rgb(36, 34, 34);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  color: rgb(36, 34, 34);
+  margin: 4px;
+  font-size: large;
+}
+
+.align-title {
+  display: flex;
+  justify-content: center;
+}
